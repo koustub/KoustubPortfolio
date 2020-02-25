@@ -1,0 +1,44 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-around;
+    
+ 
+ }
+ .project{
+     display: flex;
+     justify-content: space-evenly;
+    
+ }
+ #pageHeading{
+     text-align: center; 
+     text-decoration-line:underline;
+     margin: 0px;
+ 
+ }
+ #icon{
+     text-align: center; 
+     
+ }
+ #icon2{
+    text-align: center; 
+    padding-top: 18px;
+ }
+ .navbar.navbar-expand-lg.navbar-dark.bg-black{
+    background-color: black;
+    color: white;
+}
+
+#footer{
+    border-style: hidden;
+    margin-bottom: 20px;
+    color: white;
+}
+#subject{
+    font-weight:bold;
+    font-size: 20px;
+}

@@ -3,17 +3,17 @@
     color: white;
 }
 
-.profile{
-    display: flex;
-    justify-content: space-around;
-    
- 
- }
- .project{
+ #r1,#r2{
      display: flex;
-     justify-content: space-evenly;
-    
+     flex-direction:row-reverse;;
+     align-items: inherit;
+     justify-content: center;
  }
+.row{
+    margin-left: 0px;
+    margin-right:0px;   
+    flex-wrap: wrap;
+}
  #pageHeading{
      text-align: center; 
      text-decoration-line:underline;
@@ -42,3 +42,8 @@
     font-weight:bold;
     font-size: 20px;
 }
+ #c1,#c2,#c3,#c4{
+   
+    
+    margin:10px;
+} 

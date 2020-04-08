@@ -4,10 +4,7 @@
 }
 
  #r1,#r2{
-     display: flex;
-     flex-direction:row-reverse;;
-     align-items: inherit;
-     justify-content: center;
+  
  }
 .row{
     margin-left: 0px;
@@ -16,7 +13,6 @@
 }
  #pageHeading{
      text-align: center; 
-     text-decoration-line:underline;
      margin: 0px;
  
  }
@@ -42,8 +38,4 @@
     font-weight:bold;
     font-size: 20px;
 }
- #c1,#c2,#c3,#c4{
-   
-    
-    margin:10px;
-} 
+ 

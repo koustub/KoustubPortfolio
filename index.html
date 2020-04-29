@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
 </head>
@@ -39,80 +40,73 @@
       </ul>
     </div>
   </nav>
-  <div class="Main">
-    <div class="row" style="height:740px;">
-      <div class="col-12 col-sm-6 col-md-6 col-lg-6">
-        <h1 style="font-size: 7vw;color:rgb(255, 255, 255);" id="name">KOUSTUB MANCHIRAJU</h1>
-      </div>
-      <div class="col-12 col-sm-6 col-md-6 col-lg-6" id="info1" style="color:rgb(252, 250, 248);">
-        <h4 id="heading">WEB DEVELOPER</h4>
-        <h4 id="heading2">Present Working On EXPRESS JS</h4>
-      </div>
+ 
+  <div class="latestproject">
+    <!-- First Parallax Section with Heading and Paragraph -->
+    <div class="paral Main"style="height:740px">
+        <div class="row" id='desc'>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6" id='NameDescription'>
+              <h1 style="color:rgb(255, 255, 255);" id="name">KOUSTUB  <i class="fas fa-dot-circle" style="color: #FF8008"></i>  MANCHIRAJU</h1>
+              <h4 id="heading">WEB DEVELOPER</h4>
+              <i class="fas fa-chevron-down" id='iconDownArrow'></i>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6" id="info1" style="color:rgb(252, 250, 248);">
+            </div>
+          </div>
     </div>
-  </div>
-
-
-  </div>
-  <div class="latestproject"> 
-    <h1 style="text-align: center;margin-bottom: 20px; animation:mymove4 2s 1;color: white;">PROJECTS</h1>
-  
-    <div class="row" id="container">
-      <div class="col-12" style="text-align:center; ">
-        <img src="farm.gif" style="max-width:100%;width:500px;height:300px;border-radius: 3px;" alt="" class="progif">
-      </div>
-      <div class="col-12">
-        <p style="margin-left: auto;margin-top: 10px;
-          margin-right: auto;color: white;
-          width:700px;max-width: 100%;text-align:center;font-size: 20px;">Weather and climate conditions play a crucial role in how we grow our food.
-          Ensuring that crops are planted in the proper conditions is the key to a healthy harvest.
-          Farmer's Friend is a tool for farmers (both big and small) to find out about the local climate and soil
-          conditions.
-          Using nature's variables such as TEMPERATURE, SOIL MOISTURE, HUMIDITY, and UVI index, Farmer's Freind takes
-          your current location and lets you know what vegetables are best suited for your area.</p>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-6" id="details">
-      <div class="card border-0">
-        <div class="card-body" style="text-align:center;" >
-          <h5 class="card-title" >Education&Project</h5>
-          <p class="card-text">Brief details on projects done by me and all my education details.</p>
-          <a href="portfolio.html" class="btn btn-secondary">About Me</a>
+    <div class="row paral paralsec1">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-6" id='NameDescription'>
+        <div class="aboutme">
+            <h2 class='paralh1'>ABOUT ME <i class="fas fa-exclamation" id="iconExclamation" style="color:  #2193b0;"></i></h2>
         </div>
       </div>
-    </div>
-    <div class="col-sm-6" id="contact">
-      <div class="card border-0">
-        <div class="card-body" style="text-align:center;" >
-          <h5 class="card-title" >Contact me</h5>
-          <p class="card-text">Do contact me anytime and know more about me.</p>
-          <a href="contact.html" class="btn btn-secondary">Contact Me</a>
-        </div>
+      <div class="col-12 col-sm-6 col-md-6 col-lg-6 animatedParent" id="info1" style="color:rgb(252, 250, 248);">
+        <p style="font-size:20px;" class='animated bounceIn'>Experienced Full Stack Web Developer creating custom websites through React, jQuery, Node, mongoDB. Expertise in iOS app development using Swift. Strong collaboration skills and proven history of application development coupled with creative and analytical skills. Armed with a deep sense of responsibility and enthusiasm to give my 110%, seeking roles as web and mobile developer.</p>
       </div>
     </div>
-  </div>
-  <div class="card text-center" id="footer">
-    <div class="card-body">
-      <h5 class="card-title">Socila Media</h5>
-      <a href="www.facebook.com" class="btn" style="color: white;"><i class="fab fa-facebook-f"></i></a>
-      <a href="www.facebook.com" class="btn" style="color: white;"><i class="fas fa-envelope"></i></a>
-      <a href="www.facebook.com" class="btn" style="color: white;"><i class="fab fa-twitter"></i></a>
-      <a href="www.facebook.com" class="btn" style="color: white;"><i class="fab fa-github"></i></a>
+
+    <!-- Second Parallax Section with Heading, Paragraph and Custom Button -->
+    <div class="paral paralsec2">
+        <div class="button"><button><a href="#">Education</a></button></div>
+      <div class="button"><button><a href="portfolio.html">Projects</a></button></div>
+      <div class="button"><button><a href="#">Experiencs</a></button></div>
     </div>
-    <div class="card-footer" style="color: green; background-color: black;" >
-      By Koustub Manchiraju
+
+    <!-- Third Parallax Section Heading, Paragraph and Weebly Button -->
+    <!-- <div class="paral paralsec3">
+      <h1>Here is Heading 3</h1>
+      <p>This is a sample text.</p>
+      <a class="wsite-button wsite-button-small wsite-button-normal" href="#">
+        <span class="wsite-button-inner">This is a link</span></a> -->
     </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
+
+
+    <div class="card text-center" id="footer">
+      <div class="card-body">
+        <h5 class="card-title">Socila Media</h5>
+        <a href="www.facebook.com" class="btn" style="color: white;"><i class="fab fa-facebook-f"></i></a>
+        <a href="www.facebook.com" class="btn" style="color: white;"><i class="fas fa-envelope"></i></a>
+        <a href="www.facebook.com" class="btn" style="color: white;"><i class="fab fa-twitter"></i></a>
+        <a href="www.facebook.com" class="btn" style="color: white;"><i class="fab fa-github"></i></a>
+      </div>
+      <div class="card-footer" style="color: green; background-color: black;">
+        By Koustub Manchiraju
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
+    <script>
+      AOS.init({
+  duration: 1200,
+})
+    </script>
 </body>
 
 </html>

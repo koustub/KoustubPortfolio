@@ -1,24 +1,18 @@
 *{
     box-sizing: border-box;
-    
-    background-color: black;
-  
+    font-family: 'Julius Sans One', sans-serif;
     
 }
 a{
-    color:black;
+   color: white;
   
 }
 #navbarnav{
-  
     font-family: 'Montserrat', sans-serif;
-    
 }
 
 .Main{
    background-color: black;
-    width:100%;
-    
 }
 .MyImage{
     width:300px;
@@ -30,11 +24,18 @@ a{
 #name{
     font-size: 40px;
     align-self: flex-start;
-   
-  
+    position: relative;
+    text-align: center;
+    
+    animation: zoomIn 4s ;
+}
+#iconCircle{
+    animation: zoomOut 4s;
 }
 
-
+#iconExclamation{
+    animation: zoomIn 4s;
+}
 #details,#contact{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -46,6 +47,13 @@ a{
     border-style: hidden;
     margin-bottom: 20px;
     color: white;
+}
+
+#desc{
+    height:540px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -91,22 +99,18 @@ a{
 .navbar.navbar-expand-lg.navbar-dark.bg-black{
     background-color: black;
     color: white;
+    text-align: center;
 }
 
-#name{
-    position: relative;
-    left:20px;
-    top:80px;
-    text-align: center;
-    animation: mymove1 0.9s 1;
-}
 
 #heading{
-
     text-align: center;
     font-size:30px;
-    animation: mymove 0.9s 1;
+    color:#FF8008;
+    animation: rotateInUpRight 4s ;
+ 
 }
+
 #heading2{
    
     text-align: center;
@@ -120,8 +124,13 @@ a{
   align-items: center;
   justify-content: center
 }
-
-
+#circleOne{
+    animation: zoomIn 3s;
+    
+}
+#iconExclamation{
+    animation:zoomOut 3s infinite;
+}
 
 @keyframes mymove{
     0% 
@@ -144,7 +153,41 @@ a{
         margin-left: -20px;
     }
 }
-
+@keyframes zoomIn {
+    from {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  }
+  @keyframes zoomOut {
+    from {
+      opacity: 1;
+    }
+  
+    50% {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes rotateInUpRight {
+    from {
+        transform: translate3d(0, 100%, 0);
+        visibility: visible;
+      }
+    
+      to {
+        transform: translate3d(0, 0, 0);
+      }
+    
+  }
 @keyframes mymove3{
     0% 
     {   
@@ -165,3 +208,97 @@ a{
         margin-left: -20px;
     }
 }
+
+/* Base Parallax Element Style*/ 
+.paral {
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+   
+    }
+     
+    /* Paragrapgh for Parallax Section */ 
+    .paral p {
+ 
+    color:#f5f5f5;
+    text-align: center;
+    
+    }
+     
+    /* Heading for Parallax Section */ 
+    .paral h1 {
+    color: rgba(255, 255, 255, 0.8);
+    
+    text-align: center;
+    padding-top: 100px;
+    line-height: 100px;
+    }
+     
+    /* Custom Button Element for Parallax Section */
+    .paral button {
+    font-size: 30px; 
+    border-radius: 5px;
+    
+    background-color: #2193b0;
+    padding: 6px 12px;
+    line-height: 40px;
+    margin: 15px;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    }
+     
+div.button {
+    text-align: center;
+   
+    }
+     
+    /* Images for 3 Parallax Sections */
+    .paralsec1 {
+        background: #FF512F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F09819, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    .paralsec2 {
+    background-image: url("https://images.unsplash.com/photo-1518773553398-650c184e0bb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .paralsec3 {
+    background-image: url("https://img.webnots.com/2015/11/parallax3.jpg");
+    }
+     
+
+    .aboutme{
+        border-style: solid;
+        border-width: 15px;
+        border-color: #2193b0;
+        height: 300px;
+        left:30px;
+       margin-left: auto;
+       margin-right: auto;
+        width:400px;
+        max-width: 100%;
+        margin-top: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .paralh1{
+        color: white;
+        font-weight: bolder;
+        font-size: 3em;
+    }
+    #NameDecription{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #iconDownArrow{
+        
+    }

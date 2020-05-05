@@ -1,19 +1,49 @@
 *{
     box-sizing: border-box;
-    font-family: 'Julius Sans One', sans-serif;
-    
+    font-family: 'Open Sans', sans-serif;
 }
 a{
    color: white;
-  
 }
+/* NAVBAR */
 #navbarnav{
     font-family: 'Montserrat', sans-serif;
 }
+.navbar.navbar-expand-lg.navbar-dark.bg-black{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
 
+
+
+/* CONTAINERS */
 .Main{
    background-color: black;
 }
+.aboutme{
+    border-style: solid;
+    border-width: 15px;
+    border-color: #2193b0;
+    height:60%;
+    width:70%;
+    left:30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#NameDecription{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
 .MyImage{
     width:300px;
     max-width: 100%;
@@ -21,14 +51,7 @@ a{
     margin: 20px;
     border-radius: 3px;
 }
-#name{
-    font-size: 40px;
-    align-self: flex-start;
-    position: relative;
-    text-align: center;
-    
-    animation: zoomIn 4s ;
-}
+
 #iconCircle{
     animation: zoomOut 4s;
 }
@@ -39,7 +62,6 @@ a{
 #details,#contact{
     margin-top: 20px;
     margin-bottom: 20px;
-    
     color: white;
 }
 
@@ -88,35 +110,10 @@ a{
 #container{
     display: flex;
     flex-direction:column;
-  
-   
-}
-
-.progif{
-    max-width: 100%;
-    height: auto;
-}
-.navbar.navbar-expand-lg.navbar-dark.bg-black{
-    background-color: black;
-    color: white;
-    text-align: center;
 }
 
 
-#heading{
-    text-align: center;
-    font-size:30px;
-    color:#FF8008;
-    animation: rotateInUpRight 4s ;
- 
-}
 
-#heading2{
-   
-    text-align: center;
-    font-size:30px;
-    animation: mymov3 0.9s 1;
-}
 #info1{
  
   display: flex;
@@ -131,6 +128,33 @@ a{
 #iconExclamation{
     animation:zoomOut 3s infinite;
 }
+
+/* Headings IN Page */
+
+.paralh1{
+    color: white;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+#heading{
+    text-align: center;
+    font-size:30px;
+    color:#FF8008;
+    animation: rotateInUpRight 4s ;
+ 
+}
+
+#name{
+    font-size: 40px;
+    align-self: flex-start;
+    position: relative;
+    text-align: center;
+    animation: zoomIn 4s ;
+}
+
+
+/* ANIMATION */
 
 @keyframes mymove{
     0% 
@@ -220,16 +244,13 @@ a{
      
     /* Paragrapgh for Parallax Section */ 
     .paral p {
- 
     color:#f5f5f5;
     text-align: center;
-    
     }
      
     /* Heading for Parallax Section */ 
     .paral h1 {
     color: rgba(255, 255, 255, 0.8);
-    
     text-align: center;
     padding-top: 100px;
     line-height: 100px;
@@ -239,7 +260,6 @@ a{
     .paral button {
     font-size: 30px; 
     border-radius: 5px;
-    
     background-color: #2193b0;
     padding: 6px 12px;
     line-height: 40px;
@@ -251,7 +271,6 @@ a{
      
 div.button {
     text-align: center;
-   
     }
      
     /* Images for 3 Parallax Sections */
@@ -264,41 +283,22 @@ background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, F
     .paralsec2 {
     background-image: url("https://images.unsplash.com/photo-1518773553398-650c184e0bb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
 }
-    .paralsec3 {
-    background-image: url("https://img.webnots.com/2015/11/parallax3.jpg");
-    }
-     
+    
 
-    .aboutme{
-        border-style: solid;
-        border-width: 15px;
-        border-color: #2193b0;
-        height: 300px;
-        left:30px;
-       margin-left: auto;
-       margin-right: auto;
-        width:400px;
-        max-width: 100%;
-        margin-top: 15%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .paralh1{
-        color: white;
-        font-weight: bolder;
-        font-size: 3em;
-    }
-    #NameDecription{
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    #iconDownArrow{
-        
-    }
+    /* Slides Carousel */
+
+   #slides{
+    background: #FF8008;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 4px;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+   }
+   
+    

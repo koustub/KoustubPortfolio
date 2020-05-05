@@ -11,8 +11,8 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -61,24 +61,75 @@
         </div>
       </div>
       <div class="col-12 col-sm-6 col-md-6 col-lg-6 animatedParent" id="info1" style="color:rgb(252, 250, 248);">
-        <p style="font-size:20px;" class='animated bounceIn'>Experienced Full Stack Web Developer creating custom websites through React, jQuery, Node, mongoDB. Expertise in iOS app development using Swift. Strong collaboration skills and proven history of application development coupled with creative and analytical skills. Armed with a deep sense of responsibility and enthusiasm to give my 110%, seeking roles as web and mobile developer.</p>
+        <p style="font-size:1em;" >Experienced Full Stack Web Developer creating custom websites through React, jQuery, Node, mongoDB. Expertise in iOS app development using Swift. Strong collaboration skills and proven history of application development coupled with creative and analytical skills. Armed with a deep sense of responsibility and enthusiasm to give my 110%, seeking roles as web and mobile developer.</p>
       </div>
     </div>
 
     <!-- Second Parallax Section with Heading, Paragraph and Custom Button -->
     <div class="paral paralsec2">
-        <div class="button"><button><a href="#">Education</a></button></div>
-      <div class="button"><button><a href="portfolio.html">Projects</a></button></div>
-      <div class="button"><button><a href="#">Experiencs</a></button></div>
+    
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        
+        <div class="carousel-inner" >
+          <div class="carousel-item active" >
+             <div id="slides">
+                <h1 style="padding: 0px;">Education</h1>
+                <p>
+                    Full Stack Web Development – Certification Bootcamp – University of Toronto School of Continuing Studies, Toronto
+                    APR 2020
+                    Post Graduate Diploma in Mobile Application Design and Development – Lambton College, Toronto
+                    JAN 2019
+                    Bachelor of Technology in Information Technology – JNTUH, Hyderabad, India
+                    MAY 2016
+                  </p>
+             
+            </div>
+          </div>
+          <div class="carousel-item" style='width:80%;margin-left: auto;margin-right: auto;' >
+                  <div id="slides">
+                     <h1 style="padding: 0px;color:white">Education</h1>
+                     <ul style="color:white;" >
+                       <li>
+                         Full Stack Web Development – Certification Bootcamp – University of Toronto School of Continuing Studies, Toronto
+                         APR 2020
+                        </li>
+                        <li>
+                         Post Graduate Diploma in Mobile Application Design and Development – Lambton College, Toronto
+                         JAN 2019
+                        </li>
+                        <li>
+                         Bachelor of Technology in Information Technology – JNTUH, Hyderabad, India
+                         MAY 2016
+                        </li>
+                       </ul>
+                   </div>
+           </div>
+          <div class="carousel-item" style='width:80%;margin-left: auto;margin-right: auto;'>
+                  <div id="slides">
+                     <h1 style="padding: 0px;">Education</h1>
+                     <p>
+                         Full Stack Web Development – Certification Bootcamp – University of Toronto School of Continuing Studies, Toronto
+                         APR 2020
+                         Post Graduate Diploma in Mobile Application Design and Development – Lambton College, Toronto
+                         JAN 2019
+                         Bachelor of Technology in Information Technology – JNTUH, Hyderabad, India
+                         MAY 2016
+                       </p>
+                   </div>
+                </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      </div>
     </div>
-
-    <!-- Third Parallax Section Heading, Paragraph and Weebly Button -->
-    <!-- <div class="paral paralsec3">
-      <h1>Here is Heading 3</h1>
-      <p>This is a sample text.</p>
-      <a class="wsite-button wsite-button-small wsite-button-normal" href="#">
-        <span class="wsite-button-inner">This is a link</span></a> -->
-    </div>
+    
 
 
     <div class="card text-center" id="footer">
@@ -102,11 +153,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"></script>
-    <script>
-      AOS.init({
-  duration: 1200,
-})
-    </script>
+    
 </body>
 
 </html>
